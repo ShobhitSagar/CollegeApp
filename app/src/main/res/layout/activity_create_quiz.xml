@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.collegeapp.developerss.android.CreateQuizActivity">
+
+    <EditText
+        android:id="@+id/question_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/et_background_shape"
+        android:gravity="center"
+        android:hint="Enter Question"
+        android:inputType="textMultiLine"
+        android:textColorHint="#8f8f8f"
+        android:textSize="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/et_background_shape"
+        android:layout_marginTop="12dp"
+        android:padding="7dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/option1_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Option 1"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:inputType="text"
+            android:textColorHint="#8f8f8f"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/et_background_shape"
+        android:layout_marginTop="12dp"
+        android:padding="7dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/option2_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Option 2"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:inputType="text"
+            android:textColorHint="#8f8f8f"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/et_background_shape"
+        android:layout_marginTop="12dp"
+        android:padding="7dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/option3_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Option 3"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:inputType="text"
+            android:textColorHint="#8f8f8f"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@drawable/et_background_shape"
+        android:layout_marginTop="12dp"
+        android:padding="7dp">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <EditText
+            android:id="@+id/option4_edittext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Option 4"
+            android:layout_marginStart="5dp"
+            android:background="@null"
+            android:inputType="text"
+            android:textColorHint="#8f8f8f"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
